@@ -1,0 +1,35 @@
+h1{
+    color: #000000;
+    font-size: 90px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: -150px;
+}
+body{
+    background-color: #ddaaa3
+}
+p{
+    color: #405048;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    justify-content: center;
+}
+h2{
+    color: #050505;
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+    justify-content: center;
+}
+li{
+    color: #405048;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    justify-content: center;
+}
+.logo{
+    max-width: 9em;
+    margin-left: 80em;
+}
