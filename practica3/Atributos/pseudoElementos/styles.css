@@ -1,51 +1,34 @@
-/* 1. Pseudo-elemento ::before */
+
 .resaltado::before {
     content: ">> ";
     color: red;
     font-weight: bold;
 }
 
-/* 2. Pseudo-elemento ::after */
 .decorado::after {
     content: " <<";
     color: blue;
     font-weight: bold;
 }
 
-/* 3. Pseudo-elemento ::first-letter */
+
 p::first-letter {
     font-size: 2em;
     color: darkgreen;
 }
-
-/* 4. Pseudo-elemento ::first-line */
 p::first-line {
     font-weight: bold;
     text-transform: uppercase;
 }
 
-/* 5. Pseudo-elemento ::selection */
 ::selection {
     background-color: yellow;
     color: black;
 }
 
-/* 6. Pseudo-elemento ::before aplicado a un div */
 div.contenedor::before {
     content: "Inicio del div: ";
     font-style: italic;
     color: gray;
 }
 
-/* 7. Pseudo-elemento ::after aplicado a un blockquote */
-blockquote::after {
-    content: " -- Fuente Desconocida";
-    font-style: italic;
-    color: gray;
-}
-
-/* 8. Pseudo-elemento ::marker aplicado a una lista */
-ul::marker {
-    content: "• ";
-    color: green;
-}

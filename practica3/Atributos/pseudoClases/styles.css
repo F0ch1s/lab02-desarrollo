@@ -3,56 +3,37 @@ a:hover {
     color: red;
 }
 
-/* 2. Pseudo-clase :first-child */
 ul li:first-child {
     font-weight: bold;
 }
 
-/* 3. Pseudo-clase :last-child */
 ul li:last-child {
     color: blue;
 }
 
-/* 4. Pseudo-clase :nth-child */
 ul li:nth-child(2) {
     color: green;
 }
 
-/* 5. Pseudo-clase :nth-last-child */
 ul li:nth-last-child(2) {
     text-decoration: underline;
 }
 
-/* 6. Pseudo-clase :focus */
 input:focus {
     border-color: orange;
     background-color: lightyellow;
 }
 
-/* 7. Pseudo-clase :active */
 button:active {
     background-color: darkblue;
     color: white;
 }
 
-/* 8. Pseudo-clase :visited */
 a:visited {
     color: purple;
 }
 
-/* 9. Pseudo-clase :not */
 p:not(.contenedor p) {
     color: grey;
 }
 
-/* 10. Pseudo-clase :empty */
-footer:empty {
-    background-color: lightgray;
-    height: 50px;
-}
-
-/* 11. Pseudo-clase :hover aplicado a un div */
-div.contenedor:hover {
-    border: 2px solid black;
-    padding: 10px;
-}
