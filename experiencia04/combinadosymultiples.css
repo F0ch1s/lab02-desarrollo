@@ -1,0 +1,59 @@
+.header > h1 {
+    color: #2a9d8f;
+    font-size: 80px;
+    text-align: center;
+    margin: auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #264653;
+}
+
+h1 + p {
+    font-style: italic;
+    color: #e76f51;
+}
+
+p::first-line {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+ul li:nth-child(4) {
+    font-size: 40px;
+}
+
+h2.title {
+    text-transform: uppercase;
+    color: #f4a261;
+}
+
+input[type="text"] {
+    border: 2px solid #264653;
+    padding: 5px;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.box, .container {
+    padding: 20px;
+    background-color: #e9c46a;
+}
+
+#main, #footer {
+    margin: 0 auto;
+    width: 80%;
+}
+
+header, .nav, .footer {
+    background-color: #cba17e;
+    padding: 8px;
+}
+
+.logo{
+    margin-left: 550px;
+}

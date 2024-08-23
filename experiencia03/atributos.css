@@ -1,0 +1,19 @@
+a[href] {
+    color: blue;
+}
+
+input[type="text"] {
+    border: 2px solid green;
+}
+
+img[alt^="icon"] {
+    border: 1px solid red;
+}
+
+a[href*="example"] {
+    font-weight: bold;
+}
+
+img[src$=".png"] {
+    border-radius: 5px;
+}
