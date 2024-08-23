@@ -14,18 +14,18 @@ body{
 }
 
 
-h1{
+.box-title{
     color: rgb(8, 8, 60);
     text-align: center;
     text-transform: uppercase;
 }
 
-h2{
+.box-subtitle{
     text-transform: uppercase;
     font-size: larger;
 }
 
-p{
+.box-paragraph{
     text-align: justify;
 }
 

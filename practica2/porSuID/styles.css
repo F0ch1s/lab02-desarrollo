@@ -4,7 +4,7 @@ body{
     background: #ffe;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.box{
+#division{
     padding: 20px;
     margin: 10px;
     background: rgb(238, 233, 182);
@@ -14,18 +14,18 @@ body{
 }
 
 
-h1{
+.box-title{
     color: rgb(8, 8, 60);
     text-align: center;
     text-transform: uppercase;
 }
 
-h2{
+.box-subtitle{
     text-transform: uppercase;
     font-size: larger;
 }
 
-p{
+.box-paragraph{
     text-align: justify;
 }
 
