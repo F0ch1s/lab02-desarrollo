@@ -1,0 +1,49 @@
+/* Selectores de tipo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Selectores de clase */
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Selectores de ID */
+#main-content {
+    padding: 20px;
+}
+
+/* Selectores de atributo */
+a[href] {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a[href]:hover {
+    text-decoration: underline;
+}
+
+/* Selectores de pseudo-clase */
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Selectores de pseudo-elemento */
+p::first-line {
+    font-weight: bold;
+}
