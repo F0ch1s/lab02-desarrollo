@@ -1,0 +1,49 @@
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+body {
+    font-size: 16px;
+}
+
+header, nav, main, footer {
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header, footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a[href] {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+a[href]:hover {
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+p::first-line {
+    font-weight: bold;
+}
